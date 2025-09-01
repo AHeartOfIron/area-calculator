@@ -1,0 +1,44 @@
+{
+  "name": "area-calculator",
+  "version": "1.0.0",
+  "description": "A modern, multilingual web application for calculating areas from geographic files",
+  "main": "area_calculator.html",
+  "scripts": {
+    "start": "open area_calculator.html",
+    "serve": "python -m http.server 8000",
+    "serve-node": "npx http-server -p 8000"
+  },
+  "keywords": [
+    "area-calculator",
+    "gis",
+    "kml",
+    "geojson",
+    "gpx",
+    "mapping",
+    "leaflet",
+    "geographic",
+    "polygon",
+    "area-calculation",
+    "multilingual",
+    "web-app"
+  ],
+  "author": "Illia Usachov",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://github.com/username/area-calculator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/area-calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/area-calculator/issues"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "browserslist": [
+    "Chrome >= 88",
+    "Firefox >= 94",
+    "Safari >= 15.4",
+    "Edge >= 88"
+  ]
+}
